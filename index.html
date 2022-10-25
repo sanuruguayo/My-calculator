@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link href="index.css" rel="stylesheet" />
+    <script src="Display.js" type="text/javascript"></script>
+    <script src="Calculator.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="display">
+          <div id="previous-value"></div>
+          <div id="actual-value"></div>
+        </div>
+        <button class="col-2" onclick="display.deleteAll()">C</button>
+        <button onclick="display.delete()">&larr;</button>
+        <button class="operator" value="division" data-key="111">/</button>
+        <button class="number" data-key="55">7</button>
+        <button class="number" data-key="56">8</button>
+        <button class="number" data-key="57">9</button>
+        <button class="operator" value="multiplication" data-key="106">X</button>
+        <button class="number" data-key="52">4</button>
+        <button class="number" data-key="53">5</button>
+        <button class="number" data-key="54">6</button>
+        <button class="operator" value="subtraction" data-key="109">-</button>
+        <button class="number" data-key="49">1</button>
+        <button class="number" data-key="50">2</button>
+        <button class="number" data-key="51">3</button>
+        <button class="operator" value="addition" data-key="107">+</button>
+        <button class="col-2 number" data-key="96">0</button>
+        <button class="number" data-key="190">.</button>
+        <button class="operator" value="equal" data-key="13">=</button>
+      </div>
+    </div>
+  </body>
+</html>
