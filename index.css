@@ -3,7 +3,7 @@
     src: url(/font/Digital7-1e1Z.ttf);
 }
 * {
-  font-family: "calculator", serif;
+  font-family: "calculator", sans-serif;
 }
 
 body {
